@@ -2,9 +2,9 @@
 
 ## Union And Intersection Types Are The most useful and Common topics in typescript. It helps Developers to write complex type in a eseir way.
 
-## Sometimes ,we face a Common secnario, where we must show complex types that can not be provided with single type. These uniuon and Intersectioin Types helps us to solve this kind of problems.
+ Sometimes ,we face a Common secnario, where we must show complex types that can not be provided with single type. These uniuon and Intersectioin Types helps us to solve this kind of problems.
 
-# Lets see how it works .
+Lets see how it works .
 
 # Union Types:
 
@@ -13,7 +13,7 @@ Then , The Union Types helps us to handle this type of Secnarios.
 
 * Lets visual the topis with simple code:
 
-
+```
 const getMember = (member: TeamMember) => {
     if (member.gender === "male") {
         console.log(`The Team Member is ${member.name}`)
