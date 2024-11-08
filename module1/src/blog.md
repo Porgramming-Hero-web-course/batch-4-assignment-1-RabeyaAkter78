@@ -34,7 +34,7 @@ Example: Suppose you are a Super Admin and want to setting up a meeting and taht
 
 let visual this topic with code:
 
-
+```
 const User = { name: "Redwan", email: "redwan@example.com", role: "user" }
 const Admin = { name: "Rabeya", email: "rabeya@example.com", role: "admin" }
 
