@@ -25,7 +25,7 @@ const TeamMember1: TeamMember = { gender: "male", name: "Redwan" };
 const TeamMember2: TeamMember = { gender: "female", name: "Rabeya" };
 getMember(TeamMember1);
 getMember(TeamMember2);
-
+```
 
 # Intersection Type:
 ## Intersection type allow us to combine type into one types.
@@ -44,3 +44,4 @@ const startMeeting = (participent: Participent) => {
 }
 const participent: Participent = { name: "Redwan", email: "redwan@example.com", role: "user" };
 startMeeting(participent);
+```
